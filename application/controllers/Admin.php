@@ -22,4 +22,12 @@ class Admin extends CI_Controller
         $this->load->view('admin/produk', $data);
         $this->load->view('templates/footer');
     }
+
+    public function member(){
+        $data['user'] = $this->db->get_where('user', ['email' => $this->session->userdata('email')])->row_array();
+        $data['title'] = 'Member';
+        $this->load->view('templates/sidebar', $data);
+        $this->load->view('templates/topbar', $data);
+        $this->load->view('admin/member');
+    }
 }
