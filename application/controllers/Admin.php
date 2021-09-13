@@ -29,6 +29,7 @@ class Admin extends CI_Controller
         $this->load->view('templates/footer');
     }
 
+<<<<<<< HEAD
 
     public function kategori_produk()
     {
@@ -96,5 +97,13 @@ class Admin extends CI_Controller
     public function edit_produk()
     {
         
+=======
+    public function member(){
+        $data['user'] = $this->db->get_where('user', ['email' => $this->session->userdata('email')])->row_array();
+        $data['title'] = 'Member';
+        $this->load->view('templates/sidebar', $data);
+        $this->load->view('templates/topbar', $data);
+        $this->load->view('admin/member');
+>>>>>>> c2a976460a2b1e26f7f5df4c46dac702dfef9d81
     }
 }
