@@ -33,7 +33,7 @@
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="<?php echo base_url('admin/index');?>">
                 <div class="sidebar-brand-icon rotate-n-15">
                     <i class="fas fa-code"></i>
                 </div>
@@ -86,7 +86,7 @@
 
             <!-- Nav Item - Tables -->
             <li class="nav-item">
-                <a class="nav-link" href="tables.html">
+                <a class="nav-link" href="<?php echo base_url('admin/member');?>">
                     <i class="fas fa-fw fa-user"></i>
                     <span>Member</span></a>
             </li>
