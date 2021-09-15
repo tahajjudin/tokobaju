@@ -1,7 +1,7 @@
-<div id="cart">
+<div id="account">
         <div class="navinfo" id="navinfo">
             <div class="info">
-                cart
+                account
             </div>
             <div class="close">
                 <a href="#"></a>
@@ -20,19 +20,22 @@
 
                     <?php for ($i = 0; $i < 2; $i++){ ?>
                     <tr>
-                        <td><img src="assets/img/sholat yuuk.jpg" alt="#"> <a href="">remove</a>
+                        <td><img src="assets/img/sholat yuuk.jpg" alt="#">
                         </td>
                         <td>30$</td>
-                        <td><input type="number" value="1"/></td>
+                        <td>3</td>
                         <td>L</td>
                         <td>30$</td>
                     </tr>
                     <?php } ?>
 
                 </table>
-                <h4 style="float: right;margin-right:10px;"><span>Subtotal</span>30$</h4>
-                <button>checkout</button>
-                <a class="update" href="#">Update</a>
+                <h4 style="text-align: center;"><span>Subtotal</span>60$</h4>
+                <h4>
+                    BNI: 01910191018 <br> Mandiri: 0101009101101 <br> BCA:0109201910
+                </h4>
+                <label for="file">upload bukti transfer</label>
+                <input type="file" name="file" id="file" class="inputfile" />
             </div>
         </form>
         </div>
