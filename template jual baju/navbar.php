@@ -10,7 +10,7 @@
             <li><a href="index.php">home</a></li>
             <li><a href="shopeall.php">shope all</a></li>
             <li><a href="#serach"><img src="assets/img/search.png" alt=""></a></li>
-            <li><a href="#login"><img src="assets/img/user.png" alt=""></a></li>
+            <!-- <li><a href="#login"><img src="assets/img/user.png" alt=""></a></li> -->
             <li><a href="#account"><img src="assets/img/user.png" alt=""></a></li>
             <li><a href="#cart"><img src="assets/img/store.png" alt=""><span>0</span></a></li>
         </ul>
