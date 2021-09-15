@@ -360,7 +360,7 @@ footer .copyright a{
     position: fixed;
     top: 0;
     width: 100%;
-    min-height: 100%;
+    min-height: 100vmin;
     background-color: rgba(0, 0, 0, 0.28);
     z-index: 9999;
     color: white;
@@ -555,7 +555,11 @@ footer .copyright a{
     position: absolute;
     margin: auto;
     right: 5px;
+    margin-top: 100px;
+}
+.shoppingcart table ~ label{
     bottom: -100px;
+
 }
 .shoppingcart table ~ input{
     display: none;
